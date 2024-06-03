@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p1 signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="My Website Logo">
+        </div>
+        <h1>MY WEBSITE</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search here">
+            <button type="button">Search</button>
+        </div>
+        <div class="title-date">
+            <input type="date" id="date" name="date">
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="index.html" target="_self" style="background-color:  #34b467;">Home</a>
+            <a href="2 login form.html" target="_self">Form</a>
+            <a href="3 table p2.html" target="_self">Table</a>
+            <a href="4 news portal.html" target="_self">News Portal</a>
+            <a href="5 image p2.html" target="_self">Image</a>
+            <a href="6 contact p2.html" target="_self">Contact</a>
+        </div>
+    </nav>
+    
+
+<div class="form-container">
+        <h2>Signup Form</h2>
+        <form action="#" method="post">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Your first name.." required>
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Your last name.." required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+            
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender..</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="program">Choose Program</label>
+            <select id="program" name="program" required>
+                <option value="">Select a program..</option>
+                <option value="Computer Fundamentals and Office Application">Computer Fundamentals and Office Application</option>
+                <option value="Basic Networking">Basic Networking</option>
+                <option value="Basic web-development">Basic Web Development</option>
+                <option value="Basic programing with python">Basic programing with python</option>
+                <option value="database-management">Database Management</option>
+                <option value="Mobile Application Devolpoment">Mobile Application Devolpomen</option>
+            </select>
+            
+            <label for="reason">Why you want to attend this course</label>
+            <textarea id="reason" name="reason" placeholder="Write your reason here.." required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
